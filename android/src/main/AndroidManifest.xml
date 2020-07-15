@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.example.move_activity_to_front">
+
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+</manifest>
