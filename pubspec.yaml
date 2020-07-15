@@ -1,8 +1,8 @@
 name: move_activity_to_front
-description: A new flutter plugin project.
-version: 0.0.1
-author:
-homepage:
+description: You can use the library to bring your activity to front.
+version: 0.1.0
+author: caijinglong
+homepage: https://github.com/CaiJingLong/move_activity_to_front
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -31,8 +31,6 @@ flutter:
         package: com.example.move_activity_to_front
         pluginClass: MoveActivityToFrontPlugin
       ios:
-        pluginClass: MoveActivityToFrontPlugin
-      macos:
         pluginClass: MoveActivityToFrontPlugin
 
   # To add assets to your plugin package, add an assets section, like this:

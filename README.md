@@ -1,14 +1,12 @@
 # move_activity_to_front
 
-A new flutter plugin project.
+Prerequisites for use:
 
-## Getting Started
+1. The application is only back to the background (HOME key), rather than being killed.
+2. Because the flutter call is required, the code in the flutter part must still be alive.
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+---
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+When to use: Some push plugins cannot return the application to the foreground after clicking, then you can try it.
+
+There is no guarantee that all devices will be effective.
